@@ -1,7 +1,8 @@
-package gui;
+package cz.bydzovsky.internship.gameoflife.gui;
 
-import model.shapes.GunShape;
-import model.shapes.PulsarShape;
+
+import cz.bydzovsky.internship.gameoflife.model.shapes.GunShape;
+import cz.bydzovsky.internship.gameoflife.model.shapes.PulsarShape;
 
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;

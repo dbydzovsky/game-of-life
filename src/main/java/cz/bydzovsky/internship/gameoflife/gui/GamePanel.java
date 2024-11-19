@@ -1,4 +1,10 @@
-package gui;
+package cz.bydzovsky.internship.gameoflife.gui;
+
+import cz.bydzovsky.internship.gameoflife.exception.MismatchedSizeException;
+import cz.bydzovsky.internship.gameoflife.model.World;
+import cz.bydzovsky.internship.gameoflife.model.WorldFactory;
+import cz.bydzovsky.internship.gameoflife.model.WorldImpl;
+import cz.bydzovsky.internship.gameoflife.model.shapes.Shape;
 
 import java.awt.Color;
 import java.awt.Graphics;
@@ -10,11 +16,6 @@ import java.io.File;
 import java.io.IOException;
 import javax.swing.JOptionPane;
 
-import model.World;
-import model.WorldFactory;
-import model.WorldImpl;
-import exception.MismatchedSizeException;
-import model.shapes.Shape;
 
 public class GamePanel extends JPanel {
     private static final long serialVersionUID = 1L;

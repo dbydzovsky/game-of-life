@@ -1,8 +1,9 @@
-package model;
+package cz.bydzovsky.internship.gameoflife.model;
 
-import exception.MismatchedSizeException;
+
+import cz.bydzovsky.internship.gameoflife.exception.MismatchedSizeException;
+import cz.bydzovsky.internship.gameoflife.model.shapes.Shape;
 import lombok.var;
-import model.shapes.Shape;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;

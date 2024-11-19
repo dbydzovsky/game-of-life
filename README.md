@@ -1,4 +1,6 @@
-### Game of life
+### Game of life without implementation
+
+For learning purposes
 
 based on https://github.com/lobophf/conway-game-of-life/tree/master
 
