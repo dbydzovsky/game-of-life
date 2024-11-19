@@ -3,7 +3,6 @@ package cz.bydzovsky.internship.gameoflife.model;
 
 import cz.bydzovsky.internship.gameoflife.exception.MismatchedSizeException;
 import cz.bydzovsky.internship.gameoflife.model.shapes.Shape;
-import lombok.var;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
